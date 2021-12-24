@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+  demo:
+    build: ./
+    volumes:
+      - .:/demo
+    depends_on:
+      - redis
+    ports:
+      - 9000:9000
+
+  redis:
+    image: redis:alpine
