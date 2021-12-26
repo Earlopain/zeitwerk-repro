@@ -1,3 +1,10 @@
+GIT
+  remote: https://github.com/fxn/zeitwerk.git
+  revision: 74e3c53c26511704e1e01cb2afcd40ed50e11aae
+  branch: loaded-features
+  specs:
+    zeitwerk (2.5.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -128,7 +135,6 @@ GEM
     websocket-driver (0.7.5)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
-    zeitwerk (2.5.1)
 
 PLATFORMS
   x86_64-linux
@@ -138,6 +144,7 @@ DEPENDENCIES
   puma (~> 5.0)
   rails (~> 7.0.0)
   sidekiq
+  zeitwerk!
 
 BUNDLED WITH
    2.2.32
