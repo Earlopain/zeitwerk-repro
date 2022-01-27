@@ -1,5 +1,3 @@
-class A
-  def self.test
-    "A.test called"
-  end
+# rename to to `A`, make request
+class B
 end
